@@ -1,0 +1,12 @@
+:root { --noche: #0B1026; --indigo: #1B2350; --cian: #22D3EE; --amarillo: #FFC93C; --blanco: #F5F7FF; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--noche); color: var(--blanco);
+       font: 17px/1.6 "Montserrat", system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+h1 { color: var(--amarillo); font-size: 2.2rem; margin: 0 0 8px; }
+h2 { color: var(--cian); margin-top: 2em; }
+.lema { font-size: 1.2rem; color: var(--cian); margin-top: 0; }
+a { color: var(--cian); }
+.boton { display: inline-block; background: var(--amarillo); color: var(--noche); font-weight: 700;
+         padding: 12px 20px; border-radius: 999px; text-decoration: none; }
+footer { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; border-top: 1px solid var(--indigo); font-size: .9rem; }
